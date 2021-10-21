@@ -5,3 +5,4 @@ echo "Enter pattern for search:"
 read pattern
 echo "Saved files:"
 find $adress -type f -iname "*$pattern*" | tee list.txt
+fi
