@@ -35,9 +35,3 @@ void __exit hello_exit(void)
     return;
 }
 
-module_init(hello_init);
-module_exit(hello_exit);
-
-MODULE_DESCRIPTION("1.3");
-MODULE_AUTHOR("Maksym Andreiev");
-MODULE_LICENSE("GPL"); 
